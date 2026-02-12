@@ -45,7 +45,7 @@ const menuGroups: MenuGroup[] = [
         icon: ShoppingCart,
         items: [
             { name: 'Punto de Venta (POS)', href: '/orders' },
-            { name: 'Facturación', href: '/billing' },
+            { name: 'Ventas', href: '/billing' },
             { name: 'Gestión de Devoluciones', href: '/returns' },
             { name: 'Directorio de Clientes', href: '/clients' },
         ]
