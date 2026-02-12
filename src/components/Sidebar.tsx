@@ -41,7 +41,7 @@ interface MenuGroup {
 const menuGroups: MenuGroup[] = [
     { name: 'DASHBOARD', href: '/', icon: LayoutDashboard },
     {
-        name: 'OPERACIÓN',
+        name: 'COMERCIAL',
         icon: ShoppingCart,
         items: [
             { name: 'Punto de Venta (POS)', href: '/orders' },
