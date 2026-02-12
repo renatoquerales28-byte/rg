@@ -25,20 +25,27 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-/* Custom delicate scrollbar */
-.custom-scrollbar::-webkit-scrollbar {
+/* Global delicate scrollbar */
+*::-webkit-scrollbar {
   width: 5px;
+  height: 5px;
 }
 
-.custom-scrollbar::-webkit-scrollbar-track {
+*::-webkit-scrollbar-track {
   background: transparent;
 }
 
-.custom-scrollbar::-webkit-scrollbar-thumb {
+*::-webkit-scrollbar-thumb {
   background: #e5e7eb;
   border-radius: 10px;
 }
 
-.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+*::-webkit-scrollbar-thumb:hover {
   background: #d1d5db;
+}
+
+/* Firefox support */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #e5e7eb transparent;
 }
