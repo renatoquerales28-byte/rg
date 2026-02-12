@@ -45,7 +45,7 @@ const menuGroups: MenuGroup[] = [
         icon: ShoppingCart,
         items: [
             { name: 'Punto de Venta (POS)', href: '/orders' },
-            { name: 'Historial de Facturación', href: '/billing' },
+            { name: 'Facturación', href: '/billing' },
             { name: 'Gestión de Devoluciones', href: '/returns' },
             { name: 'Directorio de Clientes', href: '/clients' },
         ]
@@ -54,9 +54,9 @@ const menuGroups: MenuGroup[] = [
         name: 'LOGÍSTICA',
         icon: Boxes,
         items: [
-            { name: 'Catálogo de Almacén', href: '/inventories' },
+            { name: 'Inventario', href: '/inventories' },
             { name: 'Gestión de Compras', href: '/shoppings' },
-            { name: 'Maestro de Proveedores', href: '/providers' },
+            { name: 'Proveedores', href: '/providers' },
         ]
     },
     {
